@@ -3,6 +3,7 @@ import requests
 import datetime
 from log_decorator import log_execution
 
+
 now = datetime.datetime.now()
 
 current_date = str(now.strftime("%Y-%m-%d"))
@@ -45,7 +46,7 @@ class priceCapture:
         self.nav_hist_end_dt = nav_hist_end_date
         self.fund_nav = dict()
 
-    @log_execution
+
     def cleanNAV(self, fund_name: str, schemeCode: int):
         """
         Cleans the date and captures the NAV between start & end date.
@@ -80,7 +81,6 @@ class priceCapture:
 
         return df_fund_with_date_index
 
-    @log_execution
     def fetchFundNAV(self) -> dict:
         """
         Fetches NAVs of multiple funds.
@@ -95,7 +95,6 @@ class priceCapture:
 
         return self.fund_nav
 
-    @log_execution
     def joinFundNAVs(self):
         """
         Joins multiple the fund scheme's NAVs into single Dataframe.
@@ -108,8 +107,23 @@ class priceCapture:
         ).sort_index()
 
         df_final = df_final_with_date_index.reset_index()
+
         return df_final
 
 
+# price = priceCapture({'ppfas':122639,
+#                       'mirae':107578,
+#                       'nifty50':120716,
+#                       'icici_tax': 100354,
+#                       'icici_scap' : 106823,
+#                       'prima': 100473,
+#                       'absl96' : 107745
+#                       },
+#                         nav_hist_start_dt='2023-01-02',nav_hist_end_date='2023-01-04')
+
+
+# print(price.cleanNAV('ppfas',122639))
+# df = price.joinFundNAVs()
+# print(df)
 
 
