@@ -1,7 +1,7 @@
 import tomli
 
-from src.accessConfig import read_config_file
-from src.accessConfig import update_config_file
+from src.configParser import read_config_file
+from src.configParser import update_config_file
 
 test_config_file = "tests/config_test.toml"
 

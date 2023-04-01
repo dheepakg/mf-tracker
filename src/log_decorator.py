@@ -3,7 +3,7 @@ import logging
 import time
 from datetime import datetime
 
-from accessConfig import read_config_file
+from configParser import read_config_file
 
 # To capture time taken
 
