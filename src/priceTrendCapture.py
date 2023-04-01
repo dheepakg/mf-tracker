@@ -1,7 +1,7 @@
 import pandas as pd
 import requests
 import datetime
-from log_decorator import log_execution
+# from log_decorator import log_execution
 
 
 now = datetime.datetime.now()
