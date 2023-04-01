@@ -2,7 +2,7 @@ import tomli
 import tomli_w
 
 
-def read_config_file(file_path: str = "Config.toml") -> dict:
+def read_config_file(file_path: str = "config.toml") -> dict:
     """
     This is to read contents of config.toml into dictionary.
     """
