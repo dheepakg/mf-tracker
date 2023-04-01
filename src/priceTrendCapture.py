@@ -1,6 +1,8 @@
 import pandas as pd
 import requests
 import datetime
+# from log_decorator import log_execution
+
 
 now = datetime.datetime.now()
 
@@ -43,6 +45,7 @@ class priceCapture:
         self.nav_hist_start_dt = nav_hist_start_dt
         self.nav_hist_end_dt = nav_hist_end_date
         self.fund_nav = dict()
+
 
     def cleanNAV(self, fund_name: str, schemeCode: int):
         """
@@ -104,16 +107,6 @@ class priceCapture:
         ).sort_index()
 
         df_final = df_final_with_date_index.reset_index()
-        # df_final['id'] = None  # Column value for auto-increment field in sqlite
-        # Columns are reordered as per sqlite table structure
-        # column_list = df_final.columns.values
-
-        # col_id_date = [column_list[-1], column_list[0]] # Enable this if auto-inc field is setup in table
-
-        # list_of_funds =list( column_list[1:-1])  # NumPy array is converted into list
-        # new_column_list = col_id_date + list_of_funds
-        # print("New column list >> ",new_column_list)
-        # df_final = df_final[new_column_list]
 
         return df_final
 
@@ -132,6 +125,5 @@ class priceCapture:
 # print(price.cleanNAV('ppfas',122639))
 # df = price.joinFundNAVs()
 # print(df)
-
 
 
