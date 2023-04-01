@@ -12,7 +12,7 @@ file_name = "logs/app.log"
 format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 date_format = "%Y-%m-%d %H:%M:%S"
 
-[fund_list]
+[fund_details]
 
 fund1.name = "Parag Parikh Flexi Cap Fund - Direct Plan - Growth"
 fund1.alias = "ppfas"
@@ -42,10 +42,10 @@ fund7.name = "Aditya Birla Sun Life Tax Relief '96 - Growth Option"
 fund7.alias = "absl96"
 fund7.code = 107745
 
-fund8.name = nan
-fund8.alias = nan
-fund8.code = nan
+fund8.name = ''
+fund8.alias = ''
+fund8.code = 0
 
-fund9.name = nan
-fund9.alias = nan
-fund9.code = nan
+fund9.name = ''
+fund9.alias = ''
+fund9.code = 0
