@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mf-tracker-382517",
+  "private_key_id": "17a039f892d1cd9e9402766cb00c85dfd9143d27",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCn3f2h7Pkd7Jhk\nVAQEWem+7tP4GCtleWtYiyToVfaA6e22STiXCE3EGbVtOmKUHFFmpL76FpIpgkDr\nODHI+TANbncX/djVaR+EBLXTCYkMyeLJOhuDf4BTaLlRHGt89UJBjRVcmrGZTbZW\nefOz9ikQJChBQWXGrgRYaXtrw9tmJ5eWyPeG/oMX7XCvpCGOUlFpT9W/xwbIF9ro\nAVWYEOCv8neckahcnBRB/rmhSURofu96gJLRNHsSRXqCt1k8FAYvC3UtKArMBt1L\n/5n41zWvfn2khvcG+e0AinxbOmixXSfDfumg1GPFFAj1mEAwYrfgAVazdLLzq9bY\naJQQkR5TAgMBAAECggEACtimmzBPFlZjsFPXYJqYpkwTKRwSrb9PJszyyQpI36J9\nyAHqJKQWNj39AX48wVolDk9Fwa30qrbuT+R1Hwmux6dkDYpK2NsufJ67StP6ZXej\n7iGRhokV9w20r594+H12VvrxLucV45RoXCUMEIwusgrMCQ9bLp+uyzGhlmB0zCBW\n+gzKaCzQek32UrmCDllV3Or6kZL99KScVKr2yAKMfxgQLJ90DzI6uds8JkFgqzaR\nWoDJUkXSyGFSc4DbzD+b5H/LAlJIFJcmTuu+lDyKY5vPI9w3bQ7usHDWagAjALqD\nFB68QBnWEeMIXFNM7+UYG4kyhsHDDyvk95sAO9d4/QKBgQDSByq25FPYkWY0bQfw\nwU/neebaQnqLu0+yXECU/iCVwhn/6PxK8yT6E4uKnunwtJUj6bhpTgEt4dOjDIkq\nVtCjp8U08ZOpgmTcccp/ibCRiHzRLex1ga9ZEoI3zqmm7Sb25OahBGD8dpTvii5n\n3JzCosXEG9wMFuomhz0hGoBjlwKBgQDMnFuxemuCxMVoDJKm4S2RASnWTlIpZW+u\n1OL5MIOXwn7D5Q8NJdu0lI/mV42MzDt/RB2RChlFnrWu6Ae3ENPGZRNRAJZhiYVK\n/0N94pWCcHLFe1PoETmLacid2iCM/ye5MHaWXf6nMeULAmwYo++NKB19+sGuoopd\nAk6dI3xCpQKBgQCafXkXBQcD45gJcjYICzpKa6m63HGl/QdXjHJY5kFzx042ptuG\nCiol5WCce95bF4oo24+xrhZB+L4jTmJLCYb5CryOADD83BRy7yTkAZUmx/4AJEat\n/NHNtEai5Fp4ljM2IxPeVwk8S8GsHbma3nVU2kScx11qaySbaJk3k3XjSwKBgQCm\nflTehg8VyagYkqKCyJibdabli7WvmarXSMOooaFyzAD6xlkJCdVNi9XMSVIVT9ra\nJEMq0lzeGdcdDBG7FSY+OeEN+LxlgdHExRHWTZn7GiVKLKCKJfn9R4bHa8cw9C8O\nsjDNCo883YzS+JWdN0imRA47hOA1im2sYUQ2+bkTQQKBgB+pwlmw/Upcvc1sN5Sr\nh2coGFCZK2GlLJR1KZ9CDZvUG8tvjflZ4Ea1GPdL4vlUwgwjs85sHmdy4wGc7vWx\npB+LnztoFGc/ADf/Q5KMFN7YEDUePhMQvL570C/rdyknzwqYYnuhSlM5oYDfXxay\n5LFjkfdG1f7OhTkjDsNJRlbE\n-----END PRIVATE KEY-----\n",
+  "client_email": "dheepak@mf-tracker-382517.iam.gserviceaccount.com",
+  "client_id": "111160657247769888528",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dheepak%40mf-tracker-382517.iam.gserviceaccount.com"
+}
